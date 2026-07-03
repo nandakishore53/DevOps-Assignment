@@ -7,7 +7,7 @@ const PORT = 3000;
 // Home Route
 app.get("/", (req, res) => {
     res.json({
-        message: "Welcome to DevOps Assignment",
+        message:  "Welcome to DevOps Assignment - CI/CD Successful",
         status: "Running Successfully"
     });
 });
